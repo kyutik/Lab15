@@ -43,7 +43,6 @@ namespace Lab15
             }
         }
 
-        // ---------------- Завдання 1 ----------------
 
         private void BuildTask1()
         {
@@ -89,7 +88,6 @@ namespace Lab15
             };
         }
 
-        // ---------------- Завдання 2 ----------------
 
         private void BuildTask2()
         {
@@ -123,7 +121,6 @@ namespace Lab15
             };
         }
 
-        // ---------------- Завдання 3 ----------------
 
         private void BuildTask3()
         {
@@ -160,7 +157,6 @@ namespace Lab15
             };
         }
 
-        // ---------------- Завдання 4 ----------------
 
         private void BuildTask4()
         {
@@ -211,7 +207,6 @@ namespace Lab15
             };
         }
 
-        // ---------------- Завдання 5 ----------------
 
         private void BuildTask5()
         {
@@ -289,7 +284,6 @@ namespace Lab15
             return string.Join(" + ", numbers.ToArray());
         }
 
-        // ---------------- Завдання 6 ----------------
 
         private void BuildTask6()
         {
@@ -342,7 +336,6 @@ namespace Lab15
             };
         }
 
-        // ---------------- Завдання 7 ----------------
 
         private void BuildTask7()
         {
@@ -511,7 +504,6 @@ namespace Lab15
             e.Handled = true;
         }
 
-        // ---------------- Допоміжні методи обчислень ----------------
 
         private bool TryReadDouble(TextBox sourceBox, string variableName, Label resultLabel, out double value)
         {
@@ -562,7 +554,6 @@ namespace Lab15
             return result;
         }
 
-        // Потрібно, бо у Form1.Designer.cs стара кнопка має прив’язку до цього методу.
         private void button1_Click(object sender, EventArgs e)
         {
         }
